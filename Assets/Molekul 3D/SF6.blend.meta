@@ -1,0 +1,191 @@
+fileFormatVersion: 2
+guid: 305de0782693da645ac6736a8e159a0c
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Belerang_hexaflourida
+    100002: Belerang_hexaflourida_001
+    100004: Belerang_hexaflourida_002
+    100006: Belerang_hexaflourida_003
+    100008: Belerang_hexaflourida_004
+    100010: Belerang_hexaflourida_005
+    100012: Belerang_hexaflourida_006
+    100014: Belerang_hexaflourida_007
+    100016: Belerang_hexaflourida_008
+    100018: Belerang_hexaflourida_226
+    100020: Belerang_hexaflourida_227
+    100022: Belerang_hexaflourida_229
+    100024: Belerang_hexaflourida_230
+    100026: Belerang_hexaflourida_232
+    100028: //RootNode
+    400000: Belerang_hexaflourida
+    400002: Belerang_hexaflourida_001
+    400004: Belerang_hexaflourida_002
+    400006: Belerang_hexaflourida_003
+    400008: Belerang_hexaflourida_004
+    400010: Belerang_hexaflourida_005
+    400012: Belerang_hexaflourida_006
+    400014: Belerang_hexaflourida_007
+    400016: Belerang_hexaflourida_008
+    400018: Belerang_hexaflourida_226
+    400020: Belerang_hexaflourida_227
+    400022: Belerang_hexaflourida_229
+    400024: Belerang_hexaflourida_230
+    400026: Belerang_hexaflourida_232
+    400028: //RootNode
+    2100000: Fluorine
+    2100002: Sulfur
+    2300000: Belerang_hexaflourida
+    2300002: Belerang_hexaflourida_001
+    2300004: Belerang_hexaflourida_002
+    2300006: Belerang_hexaflourida_003
+    2300008: Belerang_hexaflourida_004
+    2300010: Belerang_hexaflourida_005
+    2300012: Belerang_hexaflourida_006
+    2300014: Belerang_hexaflourida_007
+    2300016: Belerang_hexaflourida_008
+    2300018: Belerang_hexaflourida_226
+    2300020: Belerang_hexaflourida_227
+    2300022: Belerang_hexaflourida_229
+    2300024: Belerang_hexaflourida_230
+    2300026: Belerang_hexaflourida_232
+    3300000: Belerang_hexaflourida
+    3300002: Belerang_hexaflourida_001
+    3300004: Belerang_hexaflourida_002
+    3300006: Belerang_hexaflourida_003
+    3300008: Belerang_hexaflourida_004
+    3300010: Belerang_hexaflourida_005
+    3300012: Belerang_hexaflourida_006
+    3300014: Belerang_hexaflourida_007
+    3300016: Belerang_hexaflourida_008
+    3300018: Belerang_hexaflourida_226
+    3300020: Belerang_hexaflourida_227
+    3300022: Belerang_hexaflourida_229
+    3300024: Belerang_hexaflourida_230
+    3300026: Belerang_hexaflourida_232
+    4300000: Belerang_hexaflourida_232
+    4300002: Belerang_hexaflourida_230
+    4300004: Belerang_hexaflourida_229
+    4300006: Belerang_hexaflourida_227
+    4300008: Belerang_hexaflourida_226
+    4300010: Belerang_hexaflourida_008
+    4300012: Belerang_hexaflourida_007
+    4300014: Belerang_hexaflourida_006
+    4300016: Belerang_hexaflourida_005
+    4300018: Belerang_hexaflourida_004
+    4300020: Belerang_hexaflourida_003
+    4300022: Belerang_hexaflourida_002
+    4300024: Belerang_hexaflourida_001
+    4300026: Belerang_hexaflourida
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Default Take
+      takeName: Default Take
+      firstFrame: 14
+      lastFrame: 199
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
