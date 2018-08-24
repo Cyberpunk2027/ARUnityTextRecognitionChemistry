@@ -82,13 +82,14 @@ public class ScriptsButton : MonoBehaviour
 	{
 		// transform.Rotate (0, -rotationSpeed * Time.deltaTime, 0);
 
- 
+	//	GameObject.FindWithTag("Model4").transform.Rotate(0, -rotationSpeed * Time.deltaTime, 0);
+	//	GameObject.FindWithTag("Model5").transform.Rotate(0, -rotationSpeed * Time.deltaTime, 0);
         
-        for (int i = 1; i <= 119; i ++)
+        for (int i = 1; i <= 7; i ++)
        {
-            GameObject.FindWithTag("Model"+i).transform.Rotate(0, -rotationSpeed * Time.deltaTime, 0);
+           GameObject.FindWithTag("Model"+i).transform.Rotate(0, -rotationSpeed * Time.deltaTime, 0);
             
-        }
+       }
        
 
     }
@@ -113,11 +114,14 @@ public class ScriptsButton : MonoBehaviour
     //fungsi membuat tombol putar kiri
     public void RotationLeftButton ()
 	{
+		GameObject.FindWithTag("Model4").transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
+		GameObject.FindWithTag("Model5").transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
+	
         // transform.Rotate (0, rotationSpeed * Time.deltaTime, 0);
-        for (int i = 1; i <= 119; i++)
-        {
-            GameObject.FindWithTag("Model"+i).transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
-        }
+    //    for (int i = 1; i <= 119; i++)
+     //   {
+//            GameObject.FindWithTag("Model"+i).transform.Rotate(0, rotationSpeed * Time.deltaTime, 0);
+     //   }
     } 
 //fungsi membuat tombol ulangi putar kanan
 	public void RotationRightButtonRepeat ()

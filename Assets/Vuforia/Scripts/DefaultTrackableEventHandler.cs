@@ -14,6 +14,11 @@ namespace Vuforia
     public class DefaultTrackableEventHandler : MonoBehaviour,
                                                 ITrackableEventHandler
     {
+		public Transform PanelScanMarker;
+		public Transform PanelMenu;
+		public Transform PanelInformasi;
+		public Transform TextTargetName;
+		public Transform TextDescription;
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
@@ -84,7 +89,12 @@ namespace Vuforia
             }
 
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
-        }
+			PanelMenu.gameObject.SetActive(true);
+			PanelInformasi.gameObject.SetActive(true);
+			PanelScanMarker.gameObject.SetActive(false);
+			TextTargetName.gameObject.SetActive(true);
+			TextDescription.gameObject.SetActive(true);
+		}
 
 
         private void OnTrackingLost()
@@ -103,10 +113,15 @@ namespace Vuforia
             {
                 component.enabled = false;
             }
-
+			PanelMenu.gameObject.SetActive(false);
+			PanelInformasi.gameObject.SetActive(false);
+			PanelScanMarker.gameObject.SetActive(true);
+			TextTargetName.gameObject.SetActive(false);
+			TextDescription.gameObject.SetActive(false);
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
         }
 
         #endregion // PRIVATE_METHODS
+
     }
 }
